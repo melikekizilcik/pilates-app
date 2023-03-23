@@ -27,7 +27,7 @@ const App = () =>{
       <LoginCard title={"Date of Birth"}></LoginCard>
       <LoginCard title={"Height"}></LoginCard>
       <LoginCard title={"Weight"}></LoginCard>
-      <LoginButton title={"KAYIT OL"}></LoginButton>
+      <LoginButton title={"SIGN UP"}></LoginButton>
   </View>
 </SafeAreaView>
     );
