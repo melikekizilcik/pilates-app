@@ -5,6 +5,8 @@ import SplashScreen from "react-native-splash-screen";
 import LoginButton from "./src/components/LoginButton/LoginButton";
 import LoginCard from "./src/components/LoginCard";
 import loginStyles from "./src/styles/LoginComponents.styles";
+import DatePicker from "./src/components/DatePicker";
+import DatePickerButton from "./src/components/DatePicker";
 //import 'react-native-gesture-handler';
 
 
@@ -24,7 +26,7 @@ const App = () =>{
       <LoginCard title={"Lastname"}></LoginCard>
       <LoginCard title={"E-Mail"}></LoginCard>
       <LoginCard title={"Password"}></LoginCard>
-      <LoginCard title={"Date of Birth"}></LoginCard>
+      <DatePickerButton></DatePickerButton>
       <LoginCard title={"Height"}></LoginCard>
       <LoginCard title={"Weight"}></LoginCard>
       <LoginButton title={"SIGN UP"}></LoginButton>
